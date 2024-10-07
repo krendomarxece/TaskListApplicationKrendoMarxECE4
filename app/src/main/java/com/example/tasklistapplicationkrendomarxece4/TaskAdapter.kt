@@ -3,6 +3,7 @@ package com.example.tasklistapplicationkrendomarxece4
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.tasklistapplicationkrendomarxece4.databinding.TaskItemBinding
 
 class TaskAdapter(private val tasks: MutableList<Task>) : RecyclerView.Adapter<TaskAdapter.TaskViewHolder>() {
 
